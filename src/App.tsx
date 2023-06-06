@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <h1>お天気アプリ</h1>
+      <Weather />
+    </>
   );
 }
 
